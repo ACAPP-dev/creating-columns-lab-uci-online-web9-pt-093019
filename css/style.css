@@ -14,8 +14,6 @@ body, html {
   min-width: 200px;
   padding: 0px;
   margin: 0px auto;
-  column-count: 2;
-  column-width: auto;
 }
 
 h4 {
@@ -55,12 +53,9 @@ img:hover {
 
 
 .column {
-
-  margin: 0px;
-  width: auto;
-
-
-}
+  display: inline-block;
+  column-width: 30%;
+  }
 
 /* create your tile classes! we recommend .small .med .large */
 .small {
