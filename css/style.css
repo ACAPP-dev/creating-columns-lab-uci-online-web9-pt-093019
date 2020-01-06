@@ -59,26 +59,17 @@ img:hover {
 
 /* create your tile classes! we recommend .small .med .large */
 .small {
-  height: 100px;
-  width: 100px;
-  padding: 2px;
-  display: block;
-
+  height: 100%;
+  width: 100%;
 }
 
-.small-flat {
-  display: inline-block;
-  height: 100px;
-  width: 100px;
-
-}
 
 .medium {
-  width: 200px;
-  height: 200px;
+  width: 200%;
+  height: 200%;
 }
 
 .large {
-  width: 400px;
-  height: 400px;
+  width: 300%;
+  height: 300%;
 }
